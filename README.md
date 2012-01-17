@@ -28,6 +28,7 @@
 			super.onCreate(savedInstanceState);
 			setContentView(R.layout.main);
 			
+			// 広告を表示
 			AdDeluxeAdView adView = new AdDeluxeAdView(this, ADDELUXE_SITE_ID);
 			RelativeLayout adLayout = (RelativeLayout) findViewById(R.id.ad);
 			adLayout.addView(adView);
