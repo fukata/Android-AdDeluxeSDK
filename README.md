@@ -21,7 +21,7 @@
 
 	public class AdDeluxeExampleActivity extends Activity {
 		
-		public static final String ADDELUXE_SITE_ID = "919";
+		public static final String ADDELUXE_SITE_ID = "サイトID";
 		
 		@Override
 		public void onCreate(Bundle savedInstanceState) {
