@@ -87,7 +87,7 @@ public class AdDeluxeAdView extends RelativeLayout {
 		html.append("<title>adDeluxe</title>");
 		html.append("<style> * { padding:0;margin:0; } </style>");
 		html.append("</head>");
-		html.append("<body>");
+		html.append("<body style=\"width:320px; height:50px;\">");
 		html.append("<script type=\"text/javascript\" language=\"javascript\">");
 		html.append("var addeluxue_conf = {");
 		html.append("site:\"").append(mSiteId).append("\"");
